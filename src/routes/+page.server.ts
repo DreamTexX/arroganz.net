@@ -50,6 +50,6 @@ export function load({ request }) {
         name,
         pun: `${name} ${puns[Math.floor(Math.random() * puns.length)]}`,
         host,
-        headers: request.headers
+        headers: Array.from(request.headers.entries())
     };
 }
