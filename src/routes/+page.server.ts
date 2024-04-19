@@ -49,7 +49,6 @@ export function load({ request }) {
     return {
         name,
         pun: `${name} ${puns[Math.floor(Math.random() * puns.length)]}`,
-        host,
-        headers: Array.from(request.headers.entries())
+        host
     };
 }
