@@ -11,7 +11,9 @@ Arroganz.net nutzt einen intelligenten Algorithmus, um aus dem eingegebenen Name
 
 ## Beispiele
 [https://lisas.arroganz.net](https://lisas.arroganz.net)
+
 [https://tom.arroganz.net](https://tom.arroganz.net)
+
 `https://<name>.arroganz.net`
 
 ## Installation
