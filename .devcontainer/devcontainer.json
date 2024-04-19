@@ -1,0 +1,25 @@
+{
+	"name": "Arroganz.NET",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm",
+	"mounts": [
+		{
+			"source": "${devcontainerId}-node_modules",
+			"target": "${containerWorkspaceFolder}/node_modules",
+			"type": "volume"
+		}
+	],
+	"workspaceFolder": "/workspace/autohaus-arndt.de",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace/autohaus-arndt.de,type=bind",
+	"forwardPorts": [5173],
+	"remoteUser": "root",
+    "containerUser": "root",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"svelte.svelte-vscode",
+				"bradlc.vscode-tailwindcss",
+				"esbenp.prettier-vscode"
+			]
+		}
+	}
+}
