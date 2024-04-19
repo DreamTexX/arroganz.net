@@ -1,38 +1,28 @@
-# create-svelte
+# Arroganz.net
+Arroganz.net ist ein unterhaltsames Projekt, das neckische Wortspiele für jeden Namen generiert, den man als Subdomain vor die Domain schreibt. Es bietet eine spielerische Möglichkeit, Freunde, Familie oder Kollegen zu amüsieren und zu überraschen.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Funktionen
+- **Punny Subdomains**: Eingabe eines beliebigen Namens als Subdomain generiert automatisch einen frechen Wortwitz.
+- **Benutzerdefinierte Wortspiele**: Die Generierung basiert auf einer Vielzahl von Wortspielen und Formaten, um sicherzustellen, dass jeder Name einzigartig ist.
+- **Teilen und Spaß haben**: Die erstellten Wortspiele können einfach geteilt werden, um Freude und Lachen zu verbreiten.
 
-## Creating a project
+## Wie es funktioniert
+Arroganz.net nutzt einen intelligenten Algorithmus, um aus dem eingegebenen Namen kreative Wortspiele zu erstellen. Es kombiniert verschiedene Wortspieltechniken wie Wortspielerei, Alliteration und Anspielungen, um einzigartige Ergebnisse zu erzielen.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Beispiele
+[https://lisas.arroganz.net](https://lisas.arroganz.net)
+[https://tom.arroganz.net](https://tom.arroganz.net)
+`https://<name>.arroganz.net`
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Installation
+Das Projekt ist als Webanwendung konzipiert und erfordert keine Installation. Benutzer können einfach die Website besuchen und ihre gewünschten Subdomains generieren lassen.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Mitwirkende
+- [DreamTexX](https://github.com/dreamtexx) - Hauptentwickler
+- [zFlxw](https://github.com/zflxw) - Nervt mich gerade damit, dass die Grammatik falsch ist.
 
-## Developing
+## Lizenz
+Arroganz.net steht unter der [MIT-Lizenz](https://opensource.org/licenses/MIT). Jeder ist eingeladen, das Projekt zu verwenden, zu modifizieren und beizutragen.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Danksagungen
+Danke an ChatGPT für die Sprüche und die Readme. Beides wurde nach Erstellung leicht verändert.
