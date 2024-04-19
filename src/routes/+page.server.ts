@@ -35,7 +35,7 @@ const puns = [
 
 export function load({ request }) {
     const host =
-        request.headers.get("X-Forwarded-Host") ?? request.headers.get("Host") ?? "arroganz.net";
+        request.headers.get("x-forwarded-host") ?? request.headers.get("Host") ?? "arroganz.net";
     let name = host.split(".").reverse().at(2);
     if (!name) {
         name = "Deine";
