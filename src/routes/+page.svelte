@@ -4,6 +4,8 @@
     const url = `https://${data.host}/`;
     const title = `${data.name} Arroganz...`;
     const description = data.pun;
+
+    console.log(data.headers);
 </script>
 
 <svelte:head>
